@@ -15,60 +15,58 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An important question 1
+            Can a Death Star be deployed to a system that contains Rebel ground
+            units?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae et
-            voluptate consequatur tempore in ratione enim, architecto commodi
-            nesciunt minus illum consequuntur nulla earum voluptatem eius!
-            Perferendis molestiae perspiciatis incidunt?
+            When the Death Star moves off the build queue, it is placed in the
+            system that contains the Death Star Under Construction. This happens
+            even if there are Rebel ground units in the system.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An important question 2
+            If the Rebel player destroys a Death Star Under Construction without
+            using the “Death Star Plans” objective card, does he gain
+            reputation?
+          </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>No</Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            Are destroyed populous systems still considered to be populous
+            systems?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae et
-            voluptate consequatur tempore in ratione enim, architecto commodi
-            nesciunt minus illum consequuntur nulla earum voluptatem eius!
-            Perferendis molestiae perspiciatis incidunt?
+            Destroyed systems are no longer considered to be populous or remote
+            systems. Destroyed systems do not have resource icons or loyalty.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography color={colors.greenAccent[500]} variant="h5">
-            An important question 3
+            If Darth Vader or Emperor Palpatine retreats from a combat before it
+            ends, and the Rebels go on to win the battle, would the “Return of
+            the Jedi” card be playable?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae et
-            voluptate consequatur tempore in ratione enim, architecto commodi
-            nesciunt minus illum consequuntur nulla earum voluptatem eius!
-            Perferendis molestiae perspiciatis incidunt?
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-          <Typography color={colors.greenAccent[500]} variant="h5">
-            An important question 4
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae et
-            voluptate consequatur tempore in ratione enim, architecto commodi
-            nesciunt minus illum consequuntur nulla earum voluptatem eius!
-            Perferendis molestiae perspiciatis incidunt?
+            Yes. The Rebel player can play “Return of the Jedi” if the Emperor
+            or Darth Vader retreats from a battle. However, the leader that
+            retreated would not be eliminated because it is no longer in the
+            system.
           </Typography>
         </AccordionDetails>
       </Accordion>

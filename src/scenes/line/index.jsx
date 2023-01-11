@@ -5,7 +5,10 @@ import LineChart from "../../components/LineChart";
 const Line = () => {
   return (
     <Box m="20px">
-      <Header title="Line Chart" subtitle="Simple Line Chart" />
+      <Header
+        title="PLANETS"
+        subtitle="How many planets are we ruling in galaxy"
+      />
       <Box height="75vh">
         <LineChart />
       </Box>

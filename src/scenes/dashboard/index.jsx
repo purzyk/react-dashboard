@@ -21,7 +21,10 @@ const Dashboard = () => {
     <Box m="20px">
       {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
-        <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
+        <Header
+          title="DEATH STAR DASHBOARD"
+          subtitle="Rule the galaxy from your app"
+        />
 
         <Box>
           <Button
@@ -56,7 +59,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Emails Sent"
+            subtitle="Rebelians Killed"
             progress="0.75"
             increase="+14%"
             icon={
@@ -75,7 +78,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="431,225"
-            subtitle="Sales Obtained"
+            subtitle="Ships Produced"
             progress="0.50"
             increase="+21%"
             icon={
@@ -94,7 +97,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="New Clients"
+            subtitle="New Troopers"
             progress="0.30"
             increase="+5%"
             icon={
@@ -113,7 +116,7 @@ const Dashboard = () => {
         >
           <StatBox
             title="1,325,134"
-            subtitle="Traffic Received"
+            subtitle="Light Years Travel"
             progress="0.80"
             increase="+43%"
             icon={
@@ -180,7 +183,7 @@ const Dashboard = () => {
             p="15px"
           >
             <Typography color={colors.grey[100]} variant="h5" fontWeight="600">
-              Recent Transactions
+              Recent crimes
             </Typography>
           </Box>
           {mockTransactions.map((transaction, i) => (
@@ -224,7 +227,7 @@ const Dashboard = () => {
           p="30px"
         >
           <Typography variant="h5" fontWeight="600">
-            Campaign
+            Campaign against Rebelians
           </Typography>
           <Box
             display="flex"
@@ -253,7 +256,7 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Sales Quantity
+            Starship lost
           </Typography>
           <Box height="250px" mt="-20px">
             <BarChart isDashboard={true} />

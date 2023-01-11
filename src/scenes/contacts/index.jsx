@@ -61,10 +61,7 @@ const Contacts = () => {
 
   return (
     <Box m="20px">
-      <Header
-        title="CONTACTS"
-        subtitle="List of contacts for future reference"
-      />
+      <Header title="NEW SPIES" subtitle="List of recruited spies" />
       <Box
         m="40px 0 0 0"
         height="75vh"

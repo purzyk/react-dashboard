@@ -32,7 +32,7 @@ const Form = () => {
   };
   return (
     <Box m="20px">
-      <Header title="CREATE USER" subtitle="Create new user profile" />
+      <Header title="ADD NEW SOLIDER" subtitle="Create new imperial solider" />
 
       <Formik
         onSubmit={handleFormSubmit}

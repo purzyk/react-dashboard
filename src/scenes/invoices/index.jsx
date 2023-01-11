@@ -50,7 +50,7 @@ const Invoices = () => {
 
   return (
     <Box m="20px">
-      <Header title="INVOICES" subtitle="List of invoice" />
+      <Header title="CONFISCATED FOUNDS" subtitle="List of confiscated funds" />
       <Box
         m="40px 0 0 0"
         height="75vh"

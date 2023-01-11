@@ -49,7 +49,10 @@ const Calendar = () => {
 
   return (
     <Box m="20px">
-      <Header title="Calendar" subtitle="Full Calendar Interactive Page" />
+      <Header
+        title="CALENDAR"
+        subtitle="List our our next attacks and other imperial events."
+      />
 
       <Box display="flex" justifyContent="space-between">
         {/* CALENDAR SIDEBAR */}
@@ -113,13 +116,23 @@ const Calendar = () => {
             initialEvents={[
               {
                 id: "12315",
-                title: "All-day event",
+                title: "Destroing Luke Skaywalker",
                 date: "2023-01-14",
               },
               {
                 id: "5123",
-                title: "Timed event",
+                title: "Palpatine's birthday",
                 date: "2023-01-28",
+              },
+              {
+                id: "6123",
+                title: "Killing some rebelians",
+                date: "2023-02-01",
+              },
+              {
+                id: "6433",
+                title: "Destroing naboo",
+                date: "2023-02-12",
               },
             ]}
           />
